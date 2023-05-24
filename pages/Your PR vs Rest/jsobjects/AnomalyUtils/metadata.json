@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "AnomalyUtils",
+    "pageId": "Your PR vs Rest",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "ANOMALY_META_KEY",
+        "value": "'anomaly_meta'"
+      },
+      {
+        "name": "IS_ANOMALY_KEY",
+        "value": "'is_anomaly'"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Your PR vs Rest_AnomalyUtils",
+  "deleted": false,
+  "gitSyncId": "63465d4289020c7ac296d080_637e155c854b686e2f8d78a1"
+}

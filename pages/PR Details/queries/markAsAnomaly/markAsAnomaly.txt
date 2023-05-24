@@ -1,0 +1,1 @@
+UPDATE run_meta SET is_anomaly = true WHERE id = {{this.params.meta}};

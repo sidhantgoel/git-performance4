@@ -1,0 +1,1450 @@
+{
+  "unpublishedPage": {
+    "name": "Actions on Metrics",
+    "slug": "actions-on-metrics",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1883,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 3880,
+          "containerStyle": "none",
+          "snapRows": 86,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 67,
+          "minHeight": 870,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Modal1",
+              "isCanvas": true,
+              "displayName": "Modal",
+              "iconSVG": "/static/media/icon.4975978e.svg",
+              "topRow": 376,
+              "bottomRow": 400,
+              "parentRowSpace": 10,
+              "type": "MODAL_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 15.171875,
+              "leftColumn": 21,
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas5",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 360,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 364,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text4",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Data point details",
+                      "key": "zxs34l9zjy",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 41,
+                      "textAlign": "LEFT",
+                      "widgetId": "ahika5w93j",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "69o274abxz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "#03B365",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 30,
+                      "bottomRow": 34,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 53,
+                      "dynamicBindingPathList": [],
+                      "text": "OK",
+                      "isDisabled": false,
+                      "key": "sur3uh8q87",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 62,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "hauolpclec",
+                      "buttonStyle": "PRIMARY",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "69o274abxz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text5",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 8,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Selected Meta: <b>{{appsmith.store.metricDetail}}",
+                      "key": "zxs34l9zjy",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 26,
+                      "textAlign": "LEFT",
+                      "widgetId": "nvcpz7cy24",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "69o274abxz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text6",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 12,
+                      "bottomRow": 17,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Pull request: <b>https://github.com/appsmithorg/appsmith/pull/{{run_meta.data[0].pull_request_id}}",
+                      "key": "zxs34l9zjy",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "widgetId": "co66psc4fy",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "69o274abxz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text7",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 8,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 26,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Created At: <b>{{moment(run_meta.data[0].created_at).format('lll')}}",
+                      "key": "zxs34l9zjy",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "textAlign": "RIGHT",
+                      "widgetId": "yjpj8z78is",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "69o274abxz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Divider1",
+                      "thickness": 2,
+                      "displayName": "Divider",
+                      "iconSVG": "/static/media/icon.cbe8f608.svg",
+                      "topRow": 4,
+                      "bottomRow": 8,
+                      "parentRowSpace": 10,
+                      "type": "DIVIDER_WIDGET",
+                      "capType": "nc",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.9375,
+                      "leftColumn": 1,
+                      "key": "xk4m65sniz",
+                      "dividerColor": "#EBEBEB",
+                      "labelTextSize": "0.875rem",
+                      "orientation": "horizontal",
+                      "strokeStyle": "solid",
+                      "rightColumn": 64,
+                      "widgetId": "phc2enfgqc",
+                      "capSide": 0,
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "69o274abxz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text9",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 17,
+                      "bottomRow": 23,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "GH Action: <b>https://github.com/appsmithorg/appsmith/actions/runs/{{run_meta.data[0].gh_run_id}}",
+                      "key": "xnalas5d1b",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "widgetId": "55puww1ht2",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "69o274abxz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text10",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 23,
+                      "bottomRow": 27,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.9375,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Commit ID: <b>{{run_meta.data[0].commit_id}}",
+                      "key": "xnalas5d1b",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "widgetId": "ozh46vzmk9",
+                      "isVisible": true,
+                      "fontStyle": "",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "69o274abxz",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "xf0oy4nwb8",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 364.125,
+                  "detachFromLayout": true,
+                  "widgetId": "69o274abxz",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "5ikof6hqgy",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "key": "47py0t0csa",
+              "height": 364,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 45,
+              "detachFromLayout": true,
+              "widgetId": "5ikof6hqgy",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "width": 456
+            },
+            {
+              "tabId": "",
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Container1",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 8,
+              "bottomRow": 375,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 15.484375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "labelTextSize": "0.875rem",
+                  "boxShadow": "none",
+                  "rightColumn": 991,
+                  "widgetName": "Canvas1",
+                  "detachFromLayout": true,
+                  "widgetId": "zqdxb98xdp",
+                  "containerStyle": "none",
+                  "bottomRow": 5650,
+                  "topRow": 0,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "parentId": "k76ag2sgjw",
+                  "props": {
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "detachFromLayout": true,
+                    "children": []
+                  },
+                  "isLoading": false,
+                  "minHeight": 5651.796875,
+                  "renderMode": "CANVAS",
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "borderRadius": "0px",
+                  "children": [
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "other",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 326,
+                      "bottomRow": 365,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the metric - other\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline: []\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'other')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'other')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\t\n\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t\t\n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',other.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "tg2di8q9sn",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "Other",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "LongTask",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 286,
+                      "bottomRow": 325,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the given metric\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline: []\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'LongTask')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'LongTask')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\t\n\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t\t\n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',LongTask.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "c9i9y1eztq",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "LongTask",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "LongHandler",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 246,
+                      "bottomRow": 285,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the metric -LongHandler\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline: []\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'LongHandler')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'LongHandler')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\t\n\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t\t\n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',LongHandler.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "o98kscch63",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "LongHandler",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "ForcedStyle",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 206,
+                      "bottomRow": 245,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the metric - ForcedStyle\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline: []\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'ForcedStyle')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'ForcedStyle')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\t\n\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t\t\n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',ForcedStyle.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "airafblbab",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "ForcedStyle",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "ForcedLayout",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 166,
+                      "bottomRow": 205,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the metric - ForcedLayout\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline: []\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'ForcedLayout')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'ForcedLayout')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\t\t\n\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t\n\t \n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',ForcedLayout.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "53y8bt9y8h",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "ForcedLayout",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "idle",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 126,
+                      "bottomRow": 165,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the metric - idle\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline: []\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'idle')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'idle')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\t\n\tif(config.dataSource.dataset.length > 0){\n\t\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t}\n\t\t\n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',idle.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "unp1hrx5vi",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "Idle",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "rendering",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 86,
+                      "bottomRow": 125,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the metric - rendering\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline:[]\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'rendering')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'rendering')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\tif(config.dataSource.dataset.length > 0){\n\t\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t}\n\t\t\n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',rendering.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "0v35sd692a",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "Rendering",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "painting",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 47,
+                      "bottomRow": 86,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the metric - painting\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline: []\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'painting')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'painting')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\tif(config.dataSource.dataset.length > 0){\n\t\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t}\n\t\t\n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',painting.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "hz2q2ndsxt",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "Painting",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "setAdaptiveYMin": true,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "scripting",
+                      "allowScroll": false,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "topRow": 8,
+                      "bottomRow": 47,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "r6k0lml8ut": {
+                          "seriesName": "Sales",
+                          "data": [
+                            {
+                              "x": "Product1",
+                              "y": 20000
+                            },
+                            {
+                              "x": "Product2",
+                              "y": 22000
+                            },
+                            {
+                              "x": "Product3",
+                              "y": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onDataPointClick"
+                        }
+                      ],
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "customFusionChartConfig"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        }
+                      ],
+                      "customFusionChartConfig": "{{(function () {\n  let config = {\n\t\t\ttype: \"msline\",\n\t\t\tdataSource: {\n\t\t\t\tchart: {\n\t\t\t\t\tcaption: \"Metric actions across PRs\",\n\t\t\t\t\tsubCaption: \"Showing selected actions across PRs for the metric - scripting\",\n\t\t\t\t\txAxisName: \"Meta ID\",\n\t\t\t\t\ttheme: \"fusion\"\n    \t\t},\n\t\t\t\tcategories: [{category: []}],\n\t\t\t\tdataset: [],\n\t\t\t\ttrendlines: [{\n\t\t\t\t\tline: []\n\t\t\t\t}]\n\t\t\t}\n\t\t}\n\t\tlet d =  run.data\n\t\td.map((v) => {\n\t\t\t\tif(!_.find(config.dataSource.categories[0].category, {label: v.meta.toString()})) {\n\t\t\t\t\tconfig.dataSource.categories[0].category.push({\"label\": v.meta.toString()})\n\t\t\t\t}\n\t\t\t\tif(!_.find(config.dataSource.dataset, {seriesname: v.action})) {\n\t\t\t\t\tif(v.metric == 'scripting')\n\t\t\t\t\t config.dataSource.dataset.push({seriesname: v.action, data: [{value: v.median}]})\n\t\t\t\t} else {\n\t\t\t\t\tif(v.metric == 'scripting')\n\t\t\t\t\t _.find(config.dataSource.dataset, {seriesname: v.action}).data.push({value: v.median})\n\t\t\t\t}\n\t\t})\n\t\n\tif(config.dataSource.dataset.length > 0){\n\t\tconfig.dataSource.dataset.map((v) => {\n\t\t\tvar x = _.meanBy(v.data, (p) => p.value)\n\t\t\tconfig.dataSource.trendlines[0].line.push({\n\t\t\t\t\"startvalue\": x,\n\t\t\t\t\"color\": Math.floor(Math.random()*16777215).toString(16),\n\t\t\t\t\"valueOnRight\": \"1\",\n\t\t\t\t\"displayvalue\": \"Mean\"\n\t\t\t})\n\t\t})\n\t}\n\t\t\n\t\treturn config\n})();}}",
+                      "onDataPointClick": "{{(function () { storeValue('metricDetail',scripting.selectedDataPoint.x, false)\n\t\t\t\t\t\t\t\t\t\tshowModal(\"Modal1\")\n\trun_meta.run()\n\n})()}}",
+                      "key": "6o1amob9l3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "widgetId": "a9vrm9bbio",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "Scripting",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "xAxisName": "Product Line",
+                      "chartType": "CUSTOM_FUSION_CHART"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "MultiSelect1",
+                      "isFilterable": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "labelTextSize"
+                        }
+                      ],
+                      "displayName": "MultiSelect",
+                      "iconSVG": "/static/media/icon.a3495809.svg",
+                      "labelText": "Select actions to plot",
+                      "topRow": 0,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "MULTI_SELECT_WIDGET_V2",
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "[\n  \"BIND_TABLE_DATA\"\n]",
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onOptionChange"
+                        }
+                      ],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "options"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "options": "{{\ngetPerfActions.data.map((v) => { return {label: v.name, value: v.name} })\n}}",
+                      "labelStyle": "BOLD",
+                      "labelTextColor": "#666",
+                      "placeholderText": "Select option(s)",
+                      "isDisabled": false,
+                      "key": "oesq3xqpui",
+                      "labelTextSize": "0.75rem",
+                      "isRequired": false,
+                      "rightColumn": 37,
+                      "widgetId": "1e91xksvyf",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "onOptionChange": "{{run.run()}}"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "refreshData",
+                      "onClick": "{{(function () {\n\tgetPerfActions.run()\n run.run(() => showAlert('Data Refreshed'), () => {})\n})()}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.171875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 60,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "key": "cnogh2dn9u",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "iconName": "refresh",
+                      "widgetId": "pkg29vgz4d",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "SECONDARY"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "SelectMachineFilter",
+                      "isFilterable": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "labelTextSize"
+                        }
+                      ],
+                      "displayName": "Select",
+                      "iconSVG": "/static/media/icon.bd99caba.svg",
+                      "labelText": "Machine",
+                      "topRow": 0,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "SELECT_WIDGET",
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "",
+                      "animateLoading": true,
+                      "parentColumnSpace": 18.921875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onOptionChange"
+                        }
+                      ],
+                      "leftColumn": 37,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "options": "[\n  {\n    \"label\": \"ubuntu-latest\",\n    \"value\": \"ubuntu-latest\"\n  },\n  {\n    \"label\": \"buildjet-4vcpu-ubuntu-2004\",\n    \"value\": \"buildjet-4vcpu-ubuntu-2004\"\n  }\n]",
+                      "labelStyle": "BOLD",
+                      "labelTextColor": "#666",
+                      "placeholderText": "Select to filter runs",
+                      "isDisabled": false,
+                      "key": "wb14uyt3lv",
+                      "labelTextSize": "0.75rem",
+                      "isRequired": false,
+                      "rightColumn": 57,
+                      "widgetId": "i1gmzzb79b",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "zqdxb98xdp",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "onOptionChange": "{{run.run()}}"
+                    }
+                  ]
+                }
+              ],
+              "borderWidth": "0",
+              "key": "57gcu4koa1",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 64,
+              "widgetId": "k76ag2sgjw",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "pageTitle",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "fontSize"
+                }
+              ],
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 0,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 15.484375,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "truncateButtonColor": "#FFC13D",
+              "text": "Dashboard - Ploting Actions on each Metric",
+              "key": "kqt8ob68sc",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 64,
+              "backgroundColor": "#666",
+              "textAlign": "CENTER",
+              "widgetId": "6obypwhppw",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#fafafa",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "fontSize": "1.5rem"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "name": "GetActions1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Actions on Metrics_getPerfActions",
+              "name": "getPerfActions",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Actions on Metrics_run",
+              "name": "run",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "MultiSelect1.selectedOptionValues.reduce((result, item, index) => {\n\t\treturn result + \"'\" + item + \"'\" + (index != MultiSelect1.selectedOptionValues.length - 1 ? \",\" : \"\")\n\t}, \"\")",
+                "SelectMachineFilter.selectedOptionValue ? \"AND machine = '\" + SelectMachineFilter.selectedOptionValue + \"'\": \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Actions on Metrics_run_meta",
+              "name": "run_meta",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.metricDetail"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Actions on Metrics",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "622f1c59f1c0af1ceded29e3_6242f926c99df2369931be58"
+}

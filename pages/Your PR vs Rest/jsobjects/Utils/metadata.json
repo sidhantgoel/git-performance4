@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Your PR vs Rest",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "defaultMetrics",
+        "value": "[\"scripting\", \"rendering\", \"evalWorker_scripting\", \"lintWorker_scripting\"]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Your PR vs Rest_Utils",
+  "deleted": false,
+  "gitSyncId": "633baef3cc554c49c42c8021_6343d70205671e46ee8faff3"
+}

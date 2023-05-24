@@ -1,0 +1,1 @@
+UPDATE run_meta SET is_anomaly = {{!utils.isStoredMetaAnomaly()}} WHERE id = {{this.params.meta}};

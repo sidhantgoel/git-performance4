@@ -1,0 +1,10 @@
+SELECT 
+cast(MIN(median) as decimal(10,2)) as median,
+cast(MIN(min) as decimal(10, 2)) as min,
+action,
+  metric from 
+  (SELECT action, metric, meta,  PERCENTILE_CONT(0.5) WITHIN GROUP(ORDER BY value) as median, MIN(value) as min 
+  from run 
+  where meta in (select id from run_meta WHERE merge_commit_id = '{{Utils.getCurrentRunMetadata(this.params.runId)?.mergeCommit}}' AND pull_request_id={{prSelect.selectedOptionValue}} and is_active)
+  and metric IN ({{Utils.getMetricsToShow()}})
+  GROUP BY meta, action, metric) as medians GROUP BY action, metric;

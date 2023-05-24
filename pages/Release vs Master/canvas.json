@@ -1,0 +1,911 @@
+{
+  "unpublishedPage": {
+    "name": "Release vs Master",
+    "slug": "release-vs-master",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1680,
+          "containerStyle": "none",
+          "snapRows": 109,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 1100,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "tabId": "",
+              "boxShadow": "NONE",
+              "widgetName": "Container1",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+              "searchTags": [
+                "div",
+                "parent",
+                "group"
+              ],
+              "topRow": 12,
+              "bottomRow": 168,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 19.435546875,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "rightColumn": 1243.875,
+                  "widgetName": "Canvas1",
+                  "detachFromLayout": true,
+                  "widgetId": "ww7q4sf612",
+                  "containerStyle": "none",
+                  "bottomRow": 1570,
+                  "topRow": 0,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "parentId": "yciiklrw3f",
+                  "props": {
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "detachFromLayout": true,
+                    "children": []
+                  },
+                  "isLoading": false,
+                  "minHeight": 3029.4375,
+                  "renderMode": "CANVAS",
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "borderColor": "#E0DEDE",
+                      "isVisibleDownload": true,
+                      "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+                      "topRow": 13,
+                      "isSortable": false,
+                      "type": "TABLE_WIDGET_V2",
+                      "inlineEditingSaveOption": "ROW_LEVEL",
+                      "animateLoading": true,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "tableData"
+                        },
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "primaryColumns.action.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.sdCurrent.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.covCurrent.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.sdPrev.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.covPrev.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.medianCurrent.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.minCurrent.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.medianPrev.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.minPrev.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.difference.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.differenceMin.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.runValues.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.prevRunValues.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.action.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.sdCurrent.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.sdPrev.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.medianCurrent.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.medianPrev.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.minCurrent.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.minPrev.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.difference.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.differenceMin.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.differenceMin.textColor"
+                        },
+                        {
+                          "key": "primaryColumns.difference.textColor"
+                        }
+                      ],
+                      "leftColumn": 0,
+                      "delimiter": ",",
+                      "defaultSelectedRowIndex": 0,
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisibleFilters": true,
+                      "isVisible": true,
+                      "enableClientSideSearch": true,
+                      "version": 1,
+                      "totalRecordsCount": 0,
+                      "isLoading": false,
+                      "childStylesheet": {
+                        "button": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "menuButton": {
+                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "iconButton": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "editActions": {
+                          "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        }
+                      },
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "columnUpdatedAt": 1678379646718,
+                      "defaultSelectedRowIndices": [
+                        0
+                      ],
+                      "widgetName": "Table2",
+                      "defaultPageSize": 0,
+                      "columnOrder": [
+                        "action",
+                        "medianCurrent",
+                        "medianPrev",
+                        "minCurrent",
+                        "minPrev",
+                        "sdCurrent",
+                        "covCurrent",
+                        "sdPrev",
+                        "covPrev",
+                        "difference",
+                        "differenceMin",
+                        "runValues",
+                        "prevRunValues"
+                      ],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "tableData"
+                        },
+                        {
+                          "key": "primaryColumns.action.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.sdCurrent.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.sdPrev.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.medianCurrent.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.medianPrev.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.minCurrent.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.minPrev.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.difference.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.differenceMin.cellBackground"
+                        },
+                        {
+                          "key": "primaryColumns.differenceMin.textColor"
+                        },
+                        {
+                          "key": "primaryColumns.difference.textColor"
+                        }
+                      ],
+                      "compactMode": "SHORT",
+                      "displayName": "Table",
+                      "bottomRow": 157,
+                      "columnWidthMap": {
+                        "task": 245,
+                        "step": 62,
+                        "status": 75,
+                        "pr_title": 417,
+                        "lt_median_failure": 217,
+                        "lt_min_failure": 216.59375,
+                        "runIds": 109,
+                        "action": 257,
+                        "runValues": 283,
+                        "prevRunValues": 278
+                      },
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "dynamicTriggerPathList": [],
+                      "parentColumnSpace": 19.435546875,
+                      "borderWidth": "1",
+                      "primaryColumns": {
+                        "action": {
+                          "allowCellWrapping": false,
+                          "index": 0,
+                          "width": 150,
+                          "originalId": "action",
+                          "id": "action",
+                          "alias": "action",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Action/metric",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "sdCurrent": {
+                          "allowCellWrapping": false,
+                          "index": 2,
+                          "width": 150,
+                          "originalId": "sdCurrent",
+                          "id": "sdCurrent",
+                          "alias": "sdCurrent",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "SD",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow.sdCurrent ? `${currentRow[\"sdCurrent\"]}(${currentRow.covCurrent} %)` : undefined))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "covCurrent": {
+                          "allowCellWrapping": false,
+                          "index": 3,
+                          "width": 150,
+                          "originalId": "covCurrent",
+                          "id": "covCurrent",
+                          "alias": "covCurrent",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "covCurrent",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"covCurrent\"]))}}",
+                          "validation": {},
+                          "cellBackground": "",
+                          "sticky": ""
+                        },
+                        "sdPrev": {
+                          "allowCellWrapping": false,
+                          "index": 4,
+                          "width": 150,
+                          "originalId": "sdPrev",
+                          "id": "sdPrev",
+                          "alias": "sdPrev",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "SD Last Release",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow.sdPrev ? `${currentRow[\"sdPrev\"]}(${currentRow.covPrev} %)` : undefined))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "covPrev": {
+                          "allowCellWrapping": false,
+                          "index": 5,
+                          "width": 150,
+                          "originalId": "covPrev",
+                          "id": "covPrev",
+                          "alias": "covPrev",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "covPrev",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"covPrev\"]))}}",
+                          "validation": {},
+                          "cellBackground": "",
+                          "sticky": ""
+                        },
+                        "medianCurrent": {
+                          "allowCellWrapping": false,
+                          "index": 6,
+                          "width": 150,
+                          "originalId": "medianCurrent",
+                          "id": "medianCurrent",
+                          "alias": "medianCurrent",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Median",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"medianCurrent\"]))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "minCurrent": {
+                          "allowCellWrapping": false,
+                          "index": 7,
+                          "width": 150,
+                          "originalId": "minCurrent",
+                          "id": "minCurrent",
+                          "alias": "minCurrent",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Min.",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"minCurrent\"]))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "medianPrev": {
+                          "allowCellWrapping": false,
+                          "index": 8,
+                          "width": 150,
+                          "originalId": "medianPrev",
+                          "id": "medianPrev",
+                          "alias": "medianPrev",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "#1d4ed8",
+                          "textSize": "0.875rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Median Last Release",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"medianPrev\"]))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "minPrev": {
+                          "allowCellWrapping": false,
+                          "index": 9,
+                          "width": 150,
+                          "originalId": "minPrev",
+                          "id": "minPrev",
+                          "alias": "minPrev",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "#1d4ed8",
+                          "textSize": "0.875rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Min. Last Release",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"minPrev\"]))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "difference": {
+                          "allowCellWrapping": false,
+                          "index": 10,
+                          "width": 150,
+                          "originalId": "difference",
+                          "id": "difference",
+                          "alias": "difference",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getDiffTextColor(currentRow.difference)))}}",
+                          "textSize": "0.875rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Difference Median %",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"difference\"]))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "differenceMin": {
+                          "allowCellWrapping": false,
+                          "index": 11,
+                          "width": 150,
+                          "originalId": "differenceMin",
+                          "id": "differenceMin",
+                          "alias": "differenceMin",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textColor": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getDiffTextColor(currentRow.differenceMin)))}}",
+                          "textSize": "0.875rem",
+                          "fontStyle": "BOLD",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Difference Min. %",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"differenceMin\"]))}}",
+                          "validation": {},
+                          "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( StyleUtils.getRowStyle(currentRow)))}}",
+                          "sticky": ""
+                        },
+                        "runValues": {
+                          "allowCellWrapping": false,
+                          "index": 1,
+                          "width": 150,
+                          "originalId": "runValues",
+                          "id": "runValues",
+                          "alias": "runValues",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "runValues",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"runValues\"]))}}",
+                          "validation": {},
+                          "cellBackground": "",
+                          "sticky": ""
+                        },
+                        "prevRunValues": {
+                          "allowCellWrapping": false,
+                          "index": 12,
+                          "width": 150,
+                          "originalId": "prevRunValues",
+                          "id": "prevRunValues",
+                          "alias": "prevRunValues",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": false,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "prevRunValues",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"prevRunValues\"]))}}",
+                          "validation": {},
+                          "cellBackground": "",
+                          "sticky": ""
+                        }
+                      },
+                      "key": "w9mm4v17zv",
+                      "canFreezeColumn": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "textSize": "0.875rem",
+                      "widgetId": "51zkvorbrw",
+                      "tableData": "{{TableUtils.getFromattedRunData()}}",
+                      "label": "Data",
+                      "searchKey": "",
+                      "parentId": "ww7q4sf612",
+                      "renderMode": "CANVAS",
+                      "horizontalAlignment": "LEFT",
+                      "isVisibleSearch": true,
+                      "isVisiblePagination": true,
+                      "verticalAlignment": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "releaseSelect",
+                      "isFilterable": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onOptionChange"
+                        }
+                      ],
+                      "displayName": "Select",
+                      "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+                      "labelText": "Select Release in progress: ",
+                      "searchTags": [
+                        "dropdown"
+                      ],
+                      "topRow": 3,
+                      "bottomRow": 7,
+                      "parentRowSpace": 10,
+                      "labelWidth": "12",
+                      "type": "SELECT_WIDGET",
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( TableUtils.getReleaseSelectOptions()?.[0]))(releaseSelect.options, releaseSelect.serverSideFiltering) }}",
+                      "animateLoading": true,
+                      "parentColumnSpace": 19.435546875,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onOptionChange"
+                        }
+                      ],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "options"
+                        },
+                        {
+                          "key": "defaultOptionValue"
+                        }
+                      ],
+                      "labelPosition": "Left",
+                      "options": "{{TableUtils.getReleaseSelectOptions()}}",
+                      "labelStyle": "BOLD",
+                      "placeholderText": "Select option",
+                      "isDisabled": false,
+                      "key": "1cwtdr9fvq",
+                      "labelTextSize": "1rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 62,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "7v24lvr6j4",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "ww7q4sf612",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "onOptionChange": "{{\nTableUtils.init();\n}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text2",
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 8,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 19.123046875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "text": "{{`Comparing with release: ${TableUtils.getPrevSelectedRelease()[2]} - ${TableUtils.getPrevSelectedRelease()[3]}`}}",
+                      "key": "s2ujyc74bs",
+                      "isDeprecated": false,
+                      "rightColumn": 62,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "kv0iwm3xxk",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#1d4ed8",
+                      "version": 1,
+                      "parentId": "ww7q4sf612",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    }
+                  ]
+                }
+              ],
+              "borderWidth": "1",
+              "key": "yncxkbxudf",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "dynamicHeight": "FIXED",
+              "widgetId": "yciiklrw3f",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0.375rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "Text1",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 3,
+              "bottomRow": 11,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 20.703125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "text": "Release Performance Comparisons",
+              "key": "lzmqef0kfq",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "backgroundColor": "#fff",
+              "textAlign": "CENTER",
+              "dynamicHeight": "FIXED",
+              "widgetId": "dlw2xhdam0",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "fontSize": "1.875rem",
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Release vs Master_TableUtils.init",
+              "name": "TableUtils.init",
+              "collectionId": "Release vs Master_TableUtils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await Promise.all([getCurrentRelease.run(), getPreviousRelease.run()]).then(data => {\n    if (!data[0] || !data[1]) return undefined;\n    return storeValue(TableUtils.dataKey, {\n      currentRelease: data[0],\n      previousRelease: data[1]\n    });\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Release vs Master_getLatestReleaseComparisons",
+              "name": "getLatestReleaseComparisons",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Release vs Master",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "63465d4289020c7ac296d080_63608c63eb761c796cb91ccc"
+}

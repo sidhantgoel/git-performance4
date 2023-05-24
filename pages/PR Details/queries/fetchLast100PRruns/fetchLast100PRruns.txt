@@ -1,0 +1,35 @@
+SELECT distinct id, value, label, repo from ((select 
+-- Max(created_at) as created_at,
+-- Min(author) as author,
+-- Min(commit_id) as commit_id,
+-- Min(branch) as branch,
+Max(id) as id,
+-- Max(pr_title) as title,
+pull_request_id as value,
+repo,
+CONCAT(pull_request_id,'-',SUBSTRING(Max(pr_title),1,64), CONCAT(' (',(array_agg(author))[1],')', (CASE WHEN bool_or(is_merge_commit)=true THEN ' ⭐' ELSE '' END))) as label
+
+from run_meta 
+WHERE pull_request_id <> -1
+AND (author ILIKE '{{prSelect.filterText ?? ''}}%'
+OR pr_title ILIKE '{{prSelect.filterText ?? ''}}%'
+OR pull_request_id::text like '{{prSelect.filterText ?? ''}}%')
+AND repo='{{RepoSelect.selectedOptionValue}}'
+AND is_active
+GROUP BY pull_request_id, repo
+
+ORDER BY id DESC  limit 100)
+{{(appsmith.URL.queryParams.pr) ? `
+UNION
+(SELECT
+Max(id) as id,
+pull_request_id as value,
+repo,
+CONCAT(pull_request_id,'-',SUBSTRING(Max(pr_title),1,64), CONCAT(' (',(array_agg(author))[1],')', (CASE WHEN bool_or(is_merge_commit)=true THEN ' ⭐' ELSE '' END))) as label
+from run_meta WHERE
+pull_request_id::text = '${appsmith.URL.queryParams.pr}'
+${appsmith.URL.queryParams.runId ? ` AND gh_run_id = ${appsmith.URL.queryParams.runId.split('_')[0]} AND gh_run_attempt = ${appsmith.URL.queryParams.runId.split('_')[1]}` : ''}
+AND is_active
+GROUP BY pull_request_id, repo
+
+ORDER BY id DESC  limit 100)` : ''}}) as combinedResults ORDER BY id DESC

@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "ChartUtils",
+    "pageId": "PR Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "ANOMALY_META_KEY",
+        "value": "'anomaly_meta'"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "PR Details_ChartUtils",
+  "deleted": false,
+  "gitSyncId": "63465d4289020c7ac296d080_6350bdfe409ae03c74631fe6"
+}

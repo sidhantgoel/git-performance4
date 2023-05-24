@@ -1,0 +1,1 @@
+SELECT run.id as id,metric,action,value from run_meta RIGHT OUTER JOIN run on run.meta = run_meta.id WHERE gh_run_id = {{TableUtils.getPrevSelectedRelease()[0]}} and metric IN ({{TableUtils.getMetricsToShow()}}) and gh_run_attempt = {{TableUtils.getPrevSelectedRelease()[1]}} ORDER BY id;

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "TableUtils",
+    "pageId": "Release vs Master",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "dataKey",
+        "value": "'RELEASE_MASTER_COMAPRISON_DATA'"
+      },
+      {
+        "name": "metrics",
+        "value": "['scripting', 'rendering', 'evalWorker_scripting']"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Release vs Master_TableUtils",
+  "deleted": false,
+  "gitSyncId": "63465d4289020c7ac296d080_6360a203d33b91674415f265"
+}

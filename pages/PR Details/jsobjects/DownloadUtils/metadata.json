@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "DownloadUtils",
+    "pageId": "PR Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "downloadS3BaseUrl",
+        "value": "'https://run-artifacts-perf-infra.s3.ap-south-1.amazonaws.com/run_artifacts/'"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "PR Details_DownloadUtils",
+  "deleted": false,
+  "gitSyncId": "63465d4289020c7ac296d080_6357a9d9ce88f900dbd01c30"
+}

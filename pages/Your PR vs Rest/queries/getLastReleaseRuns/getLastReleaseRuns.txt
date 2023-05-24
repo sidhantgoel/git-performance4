@@ -1,0 +1,7 @@
+SELECT 
+json_agg(json_build_object('metric', metric, 'value', value, 'min', min, 'sd', sd/value * 100)) as metrics, action, meta, (array_agg(runs.prId))[1] as prId, (array_agg(runs.created_at))[1] as created_at, (array_agg(runs.is_anomaly))[1] as is_anomaly, (array_agg(runs.base_branch))[1] as base_branch from 
+(SELECT run.action, run.metric, run.meta,  PERCENTILE_CONT(0.5) WITHIN GROUP(ORDER BY value) as value, MIN(run.value) as min, cast(STDDEV(run.value) as decimal(10,2)) as sd, (array_agg(run_metas.pull_request_id))[1] as prId, (array_agg(run_metas.is_anomaly))[1] as is_anomaly, (array_agg(run_metas.created_at))[1] as created_at, (array_agg(run_metas.base_branch))[1] as base_branch
+from run JOIN (select id, created_at, pull_request_id, is_anomaly, base_branch from run_meta where (is_merge_commit={{MergeCommitSwitch.isSwitchedOn}} {{ Utils.getSelectedPR() ? ` OR pull_request_id = ${Utils.getSelectedPR()}` : '' }}) and repo = '{{RepoSelect.selectedOptionValue}}' and created_at between '{{StartDate.formattedDate}}' and '{{EndDate.formattedDate}}' {{MergeCommitSwitch.isSwitchedOn ? "AND (base_branch = 'master' OR base_branch = 'release')" : ""}}  order by created_at DESC ) as run_metas
+on run.meta = run_metas.id
+WHERE metric in ({{Utils.getMetricsToShow()}}) and action in ({{Utils.getActionsToShow()}})
+GROUP BY meta, action, metric ORDER BY run.action, created_at DESC) as runs GROUP by action, meta ORDER BY action, created_at DESC

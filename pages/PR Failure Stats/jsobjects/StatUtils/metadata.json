@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "StatUtils",
+    "pageId": "PR Failure Stats",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "PR Failure Stats_StatUtils",
+  "deleted": false,
+  "gitSyncId": "63465d4289020c7ac296d080_637f1e0c854b686e2f8d8be7"
+}

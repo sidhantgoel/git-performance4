@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "ChartData",
+    "pageId": "Mean of Repos",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Mean of Repos_ChartData",
+  "deleted": false,
+  "gitSyncId": "622f1c59f1c0af1ceded29e3_631ec374e3477d2215f3f3c0"
+}
